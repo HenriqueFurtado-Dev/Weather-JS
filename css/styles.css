@@ -124,3 +124,17 @@ footer {
     padding: 15px 0;
     color: white;
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 30px;
+        height: 100vh;
+    }
+    .container {
+        width: 100%;
+        margin: 50px;
+    }
+    form {
+        width: 100%;
+    }
+}
